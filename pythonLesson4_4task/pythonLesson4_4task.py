@@ -5,7 +5,7 @@
 
 k = int(input("Введите значение числа N: "))
 str = ""
-path = "./pythonLesson4_4task/test.txt"
+path = "./pythonLesson4_4task/task4_result.txt"
 import random
 
 def write(dat):
