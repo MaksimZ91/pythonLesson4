@@ -11,4 +11,5 @@ import math
 accur = len(input("Введите желаемую точность: ").split(".")[1])
 pi = float(str(math.pi)[:accur + 2])
 print(pi)
+
 #print(round(math.pi, accur))

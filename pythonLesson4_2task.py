@@ -11,9 +11,8 @@ def factor(num):
         num = num / count
         count = 2 
     else: count +=1
-  return ls     
-
-print(factor(N))  
+  return ls 
+print(factor(N) )  
 
 
 

@@ -5,13 +5,12 @@
 
 k = int(input("Введите значение числа N: "))
 str = ""
-path = "./pythonLesson4_4task/task4_result.txt"
+path =  "./pythonLesson4_4task/task4_result.txt"
 import random
 
 def write(dat):
   with open(path, "a") as data:
       data.write(dat) 
-
 def task4(k):
   while k >= 0:
     koef = random.randint(1,100)
